@@ -3,7 +3,7 @@ export class Negociacao {
   #valor;
   #quantidade;
 
-  constructor(data, valor, quantidade) {
+  constructor(data:Date, valor:number, quantidade:number) {
     this.#data = data;
     this.#valor = valor;
     this.#quantidade = quantidade;
